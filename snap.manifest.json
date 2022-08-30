@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "description": "A MetaMask Snap template.",
+  "proposedName": "MetaMask Template Snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HanTengfeifei/web3-snaps.git"
+  },
+  "source": {
+    "shasum": "4jJeVEDmPcEVgqG1W/VHoGcsLPCQXVV8Lkbdk8vnCf4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "web3-snaps",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_confirm": {}
+  },
+  "manifestVersion": "0.1"
+}
