@@ -15,7 +15,9 @@ module.exports.onRpcRequest = async ({ origin, request }) => {
       });
     case 'web3-mq':
       return new Promise((resolve, reject) => {
-        resolve();
+        resolve({
+          web3Lib: 'test',
+        });
       });
     default:
       throw new Error('Method not found.');
