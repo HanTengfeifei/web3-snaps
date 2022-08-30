@@ -1,6 +1,6 @@
 {
   "name": "web3-snaps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The 'Hello, world!' of MetaMask Snaps.",
   "repository": {
     "type": "git",
